@@ -1,0 +1,120 @@
+html, body{
+    margin:0;
+    font-family: 'Nanum Gothic', sans-serif;
+}
+
+/*NAV*/
+#navbar{
+    z-index: 5;
+    width: 100%;
+    height: 7vh;
+    background-color: rgba(255, 255, 255, 0.7);
+    display: flex;
+    justify-content: center;       
+    align-items: center;   
+    position: fixed;
+}
+
+#navbar a:hover{
+    background-color: rgb(230, 230, 230);
+}
+
+#navbar a{
+    text-decoration: none;
+    list-style: none;
+    text-transform: uppercase;
+    color: black;
+    margin: 6%;
+    letter-spacing: 2px;
+    text-align: center;
+}
+
+#navbar #icon-nav{
+    background-image: url(/resources/img/favi.png);
+    height: 32px;
+    width: 32px;
+    background-repeat: no-repeat;
+}
+
+/*CONTENIDO*/
+#bg-row1 #column-center{
+    position: fixed;
+    z-index: 1;
+    width: 50%;    
+    text-align: center;
+}
+
+#bg-row2 #column-left{
+    float: left;
+    margin-right: 4%;
+}
+
+#bg-row2 #column-right{
+    text-align: right;
+    float: right;
+    margin-left: 4%;
+}
+            
+#bg-row3 #column-map{
+    /*position: fixed;*/
+    z-index: 50;
+    height: 75vh;
+    width: 40%;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.7);
+}
+
+/*CLASES */
+.background{
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    display: flex;
+    justify-content: center;       
+    align-items: center;  
+}
+
+.column{
+     height: 40vh;
+     border: 2px solid white;
+     background-color: rgba(230, 230, 230, 0.9);
+     padding: 2%;
+     width: 30%;
+     /*display: table;*/
+ }
+
+.to-upper{
+    text-transform: uppercase;
+}
+
+.bold{
+    font-weight: bold;
+}
+
+
+
+/*FONDOS*/
+#bg-row1{
+    z-index: -2;
+    background-attachment: fixed;
+    position: relative;
+    background-image: url(https://i.picsum.photos/id/1015/6000/4000.jpg?hmac=aHjb0fRa1t14DTIEBcoC12c5rAXOSwnVlaA5ujxPQ0I);
+}
+
+#bg-row2{
+    background-image: url(https://i.picsum.photos/id/1024/1920/1280.jpg?hmac=-PIpG7j_fRwN8Qtfnsc3M8-kC3yb0XYOBfVzlPSuVII);
+}
+
+#bg-row3{
+    z-index: 0;
+    background-attachment: fixed;
+    position: relative;
+    background-image: url(https://i.picsum.photos/id/1025/4951/3301.jpg?hmac=_aGh5AtoOChip_iaMo8ZvvytfEojcgqbCH7dzaz-H8Y);
+}
+
+/*
+column 1 y map fixed
+favicon
+div del map se achica
+
+*/

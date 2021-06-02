@@ -1,0 +1,34 @@
+
+
+#row-about{
+    width: 100%;
+    height: 40vh;
+    background-image: url(/resources/img/playa.PNG);
+    background-size: cover;
+    
+}
+
+#panel-about{
+    width: 100%;
+    height: 60vh;
+    display: grid;
+    grid-template-columns: calc(110% /2) calc(90% /2);
+    text-align: center;
+}
+
+#panel-about #row1-about{
+    background-color: rgba(255, 255, 255, 0.7);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: start;
+    padding-left: 3%;
+}
+
+#panel-about #row2-about{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: rgba(255, 255, 255, 0.7);
+    padding-left: 10%;
+}
